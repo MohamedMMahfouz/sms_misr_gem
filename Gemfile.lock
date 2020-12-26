@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sms_misr (0.1.3)
+    sms_misr (0.1.4)
       httparty
 
 GEM
@@ -34,7 +34,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  httparty
   rake (>= 0.8.7)
   rspec (>= 3.0)
   sms_misr!
