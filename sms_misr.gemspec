@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{SMS misr api handler.}
   spec.description   = %q{SMS misr api handler.}
-  # spec.homepage      = "SMS misr api handler"
+  spec.homepage      = "https://github.com/MohamedMMahfouz/sms_misr_gem"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 

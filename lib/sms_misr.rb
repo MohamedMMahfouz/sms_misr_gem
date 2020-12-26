@@ -1,5 +1,5 @@
 require "sms_misr/version"
-
+require 'httparty'
 # This class is responsible for sending the sms for the whole app
 #
 ## `send_message` uses sms misr SMS API which takes a longer time to receive the message
@@ -9,7 +9,7 @@ require "sms_misr/version"
 ###########
 
 module SmsMisr
-  class Error < StandardError; end
+  class Handler
     include HTTParty
     base_uri 'https://smsmisr.com/api'
     attr_reader :options
@@ -82,5 +82,6 @@ module SmsMisr
     def unenabled_message
       { message: 'sending sms is not enabled' }
     end
+  end
 end
 
