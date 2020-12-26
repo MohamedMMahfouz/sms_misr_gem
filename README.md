@@ -40,7 +40,7 @@ parsed_response = handler.send_message("message", "SENDER", 2)
 ````
 
 ## OTP API
-to use OTP API make sure FIXED_OTP_SMS_TOKEN & FIXED_OTP_SMS_SIGNATURE are set in your env variable
+to use OTP API make sure FIXED_OTP_SMS_TOKEN & FIXED_OTP_SMS_SIGNATURE are set in your env file
 ````ruby
 handler = SmsMisr::Handler.new('010XXXXXXXX')
 parsed_response = handler.send_otp('123456')
