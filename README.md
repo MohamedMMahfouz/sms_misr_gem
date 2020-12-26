@@ -22,12 +22,13 @@ Or install it yourself as:
 
 add the following credentials into your ENV file
 
-
-`SEND_SMS_ENABLED=<must be set to true to allow sending messages, set to false prevent sending any messages>`
-`SMS_USERNAME=<user name for your sms misr account>`
-`SMS_PASSWORD=<password for your sms misr account>`
-`FIXED_OTP_SMS_TOKEN=<Fixed message token for OTP API>`
-`FIXED_OTP_SMS_SIGNATURE=<Fixed message signature for OTP API>`
+````ruby
+SEND_SMS_ENABLED=<must be set to true to allow sending messages, set to false prevent sending any messages>
+SMS_USERNAME=<user name for your sms misr account>
+SMS_PASSWORD=<password for your sms misr account>
+FIXED_OTP_SMS_TOKEN=<Fixed message token for OTP API>
+FIXED_OTP_SMS_SIGNATURE=<Fixed message signature for OTP API>
+````
 ## SMS API
 
 to use the sms api: 
