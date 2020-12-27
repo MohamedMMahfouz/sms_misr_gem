@@ -60,7 +60,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/MohamedMMahfouz/sms_misr.
+Bug reports and pull requests are welcome on GitHub at https://github.com/MohamedMMahfouz/sms_misr_gem.
 
 
 ## License
