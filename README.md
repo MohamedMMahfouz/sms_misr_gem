@@ -2,7 +2,6 @@
 A ruby gem for integration with sms misr services
 PLEASE NOTE THAT this integrates with SMS MISR API ONLY https://smsmisr.com/
 Ruby GEM: https://rubygems.org/gems/sms_misr
-# This GEM is still under testing
 
 ## Installation
 
